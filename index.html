@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dipesh Raj Joshi | Cloud, DevOps, QA & Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+    a { color: #38bdf8; text-decoration: none; }
+    .container { max-width: 1100px; margin: auto; padding: 2rem; }
+    header {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 2rem;
+      align-items: center;
+      padding: 4rem 0;
+    }
+    h1 { font-size: 2.8rem; line-height: 1.2; }
+    h2 { font-size: 2rem; margin-bottom: 1rem; }
+    h3 { font-size: 1.2rem; margin-bottom: .5rem; }
+    p { color: #cbd5f5; }
+    .tagline { font-size: 1.1rem; margin: 1rem 0; }
+    .badges span {
+      display: inline-block;
+      background: #1e293b;
+      padding: .4rem .7rem;
+      border-radius: 6px;
+      font-size: .85rem;
+      margin: .25rem .25rem 0 0;
+    }
+    .cta {
+      margin-top: 1.5rem;
+    }
+    .cta a {
+      display: inline-block;
+      margin-right: .75rem;
+      padding: .6rem 1rem;
+      border-radius: 8px;
+      background: #38bdf8;
+      color: #020617;
+      font-weight: 600;
+    }
+    section { margin: 4rem 0; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: #020617;
+      border: 1px solid #1e293b;
+      border-radius: 12px;
+      padding: 1.5rem;
+    }
+    .card p { font-size: .95rem; }
+    footer {
+      border-top: 1px solid #1e293b;
+      padding: 2rem 0;
+      text-align: center;
+      color: #94a3b8;
+    }
+    @media(max-width: 768px) {
+      header { grid-template-columns: 1fr; }
+      h1 { font-size: 2.2rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- HERO -->
+    <header>
+      <div>
+        <h1>Dipesh Raj Joshi</h1>
+        <p class="tagline">
+          Cloud • DevOps • QA • Software Engineer
+        </p>
+        <p>
+          Master of Applied Computing student at the University of Windsor with hands-on experience in software engineering, cloud infrastructure, DevOps practices, and QA automation.
+        </p>
+        <div class="badges">
+          <span>Java</span><span>Python</span><span>Spring Boot</span><span>Django</span>
+          <span>AWS</span><span>Docker</span><span>CI/CD</span><span>QA Automation</span>
+        </div>
+        <div class="cta">
+          <a href="https://github.com/Dipeshrajjoshi" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/dipeshrajjoshi" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Currently</h3>
+        <p>
+          🎓 Master of Applied Computing (2025–Present)<br>
+          🛠 Building <strong>HackHub.coding</strong><br>
+          🔍 Seeking <strong>Summer 2026 Co-op</strong>
+        </p>
+      </div>
+    </header>
+
+    <!-- PROJECTS -->
+    <section>
+      <h2>Projects</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>HackHub.coding (Ongoing)</h3>
+          <p>
+            Building an online coding contest and evaluation platform to support competitive programming, academic assessments, and hackathons.
+          </p>
+          <ul>
+            <li>Designing and developing backend services using Django and REST APIs</li>
+            <li>Implementing contest management, problem sets, submissions, leaderboards, and time tracking</li>
+            <li>Supporting code submissions via file upload, GitHub repositories, and external platforms</li>
+            <li>Contributing to database design, system architecture, and technical documentation</li>
+          </ul>
+          <p><strong>Tech:</strong> Django, REST APIs, SQL, GitHub, System Design</p>
+        </div>
+
+        <div class="card">
+          <h3>Credit Card Comparison Platform</h3>
+          <p>
+            Backend-driven platform for aggregating, validating, and comparing financial credit card data from multiple banks.
+          </p>
+          <ul>
+            <li>Built 10+ REST APIs using Java and Spring Boot for querying and filtering 100+ credit card records</li>
+            <li>Automated data extraction from 5+ banking websites using Selenium</li>
+            <li>Implemented data validation and error handling to ensure system reliability</li>
+            <li>Optimized parsing and storage workflows, reducing processing time by 35%</li>
+          </ul>
+          <p><strong>Tech:</strong> Java, Spring Boot, REST APIs, Selenium, SQL</p>
+        </div>
+
+        <div class="card">
+          <h3>Flight Performance Analytics Data Warehouse</h3>
+          <p>
+            SQL-based analytics system designed to analyze airline operational performance at scale.
+          </p>
+          <ul>
+            <li>Designed a data warehouse processing 7M+ flight records</li>
+            <li>Optimized schema design, indexing strategies, and queries to improve performance by ~3.2×</li>
+            <li>Built analytical queries to study delays, cancellations, and route efficiency</li>
+            <li>Ensured data accuracy through validation and reconciliation checks</li>
+          </ul>
+          <p><strong>Tech:</strong> SQL, Data Engineering, Query Optimization, Indexing</p>
+        </div>
+
+        <div class="card">
+          <h3>Aspect-Based Sentiment Analysis of Electronics Reviews</h3>
+          <p>
+            Data analytics and NLP project analyzing how inflation impacts customer sentiment toward electronics products.
+          </p>
+          <ul>
+            <li>Analyzed 30,000+ Amazon reviews across pre- and post-inflation periods</li>
+            <li>Extracted aspects such as price, quality, delivery, and service</li>
+            <li>Applied NLP preprocessing and supervised sentiment analysis</li>
+            <li>Performed statistical testing (t-tests, Cohen’s d) to validate sentiment shifts</li>
+          </ul>
+          <p><strong>Tech:</strong> Python, NLP, Machine Learning, Statistics</p>
+        </div>
+
+        <div class="card">
+          <h3>Blog Platform</h3>
+          <p>
+            Full-stack blog application focusing on secure backend services and scalable API design.
+          </p>
+          <ul>
+            <li>Developed backend APIs for users, posts, comments, likes, and filtering</li>
+            <li>Implemented authentication, authorization, and password hashing</li>
+            <li>Added pagination and sorting to handle growing datasets efficiently</li>
+            <li>Designed a responsive frontend using vanilla JavaScript</li>
+          </ul>
+          <p><strong>Tech:</strong> Node.js, Express, MongoDB, REST APIs, JavaScript</p>
+        </div>
+
+        <div class="card">
+          <h3>Parkinson’s Disease Detection (Machine Learning)</h3>
+          <p>
+            Applied machine learning project focused on early detection of Parkinson’s disease using biomedical voice data.
+          </p>
+          <ul>
+            <li>Trained and evaluated SVM, Random Forest, and KNN models</li>
+            <li>Performed feature preprocessing, normalization, and consistency checks</li>
+            <li>Evaluated models using accuracy, precision, recall, and F1-score</li>
+            <li>Conducted comparative analysis to identify optimal model performance</li>
+          </ul>
+          <p><strong>Tech:</strong> Python, Scikit-learn, Machine Learning</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section>
+      <h2>Core Skills</h2>
+      <div class="grid">
+        <div class="card"><strong>Software Engineering</strong><p>Java, Python, Spring Boot, Django, REST APIs, OOP</p></div>
+        <div class="card"><strong>Cloud & DevOps</strong><p>AWS, Docker, CI/CD, GitHub Actions, Jenkins</p></div>
+        <div class="card"><strong>QA & Testing</strong><p>Selenium, Test Automation, API Testing, Data Validation</p></div>
+        <div class="card"><strong>Systems</strong><p>Linux, System Design Fundamentals, Monitoring, Reliability</p></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section>
+      <h2>Contact</h2>
+      <div class="card">
+        <p>
+          📧 joshi6k@uwindsor.ca<br>
+          📍 Windsor, ON, Canada<br>
+          💼 Open to Software, Backend, Data & ML Co-op roles (Summer 2026)
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      © 2026 Dipesh Raj Joshi • Built with HTML & CSS
+    </footer>
+
+  </div>
+</body>
+</html>
